@@ -35,7 +35,7 @@ These features are used to train the model on a labelled dataset.
    
 So for our model using all features is the best case.
 
-### Future Scope:
+### Future Scope
 
 1. Real-time classification: Developing real-time classification models capable of classifying a song's genre in real time could be important in applications such as live music streaming.
    
