@@ -23,14 +23,13 @@ These features are used to train the model on a labelled dataset.
   
 6. The SVM method would use the retrieved features to find a hyperplane in the feature space that maximises the margin between the different classes (i.e., music genres). To categorise a new audio sample, we would extract its characteristics and preprocess the data similarly to the training data. The preprocessed feature vector would then be fed into the SVM classifier, which would utilise the hyperplane learned during training to predict the genre label of the audio sample. A song's labelled genre is utilised as a crucial component in recommending other tracks in the same genre. 
 ### Results
-Features
-Accuracy
-Important Features(9 features)
-65.60%
-Less Immportant Features(18 features)
-59.19%
-All Features(27 features)
-76%
+#### Feature Selection
+1. Important Features(9 features):65.60%
+   
+2. Less Important Features(18 features):59.19%
+
+3. All Features(27 features):76%
+   
 So for our model using all features is the best case.
 
 ### Conclusion
